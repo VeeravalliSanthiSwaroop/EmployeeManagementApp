@@ -7,10 +7,10 @@ public class EmployeeService {
 	
 	HashSet<Employee> empset=new HashSet<Employee>();
 	
-	Employee emp1=new Employee(101, "Shital", 24, "Developer", "IT", 25000);
-	Employee emp2=new Employee(102, "Meena", 26, "Tester","CO", 57000);
-	Employee emp3=new Employee(103, "Bob", 20, "DevOps Eng","Admin", 5000);
-	Employee emp4=new Employee(104, "Max", 27, "System Eng","CO",  70000);
+	Employee emp1=new Employee(101, "spiderman", 24, "Developer", "IT", 25000);
+	Employee emp2=new Employee(102, "ironman", 26, "Tester","CO", 57000);
+	Employee emp3=new Employee(103, "thor", 20, "DevOps Eng","Admin", 5000);
+	Employee emp4=new Employee(104, "captain america", 27, "System Eng","CO",  70000);
 	
 	Scanner sc=new Scanner(System.in);
 	boolean found=false;
